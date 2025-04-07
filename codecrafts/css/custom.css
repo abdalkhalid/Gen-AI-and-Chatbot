@@ -1,0 +1,339 @@
+/* Custom CSS for Soft Ivory (#EFE9E0) and Tropical Teal (#0F9E99) theme */
+
+/* Background colors with glassy effect */
+.bg-primary {
+    background-color: #0F9E99 !important;
+    background-image: linear-gradient(135deg, rgba(15, 158, 153, 0.9) 0%, rgba(9, 107, 104, 0.8) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-secondary {
+    background-color: #6EBFBC !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-light {
+    background-color: rgba(239, 233, 224, 0.8) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.bg-dark {
+    background-color: #096B68 !important;
+    background-image: linear-gradient(135deg, rgba(9, 107, 104, 0.9) 0%, rgba(7, 74, 72, 0.8) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Text colors */
+.text-primary {
+    color: #0F9E99 !important;
+}
+
+.text-secondary {
+    color: #6EBFBC !important;
+}
+
+.text-light {
+    color: #EFE9E0 !important;
+}
+
+.text-dark {
+    color: #096B68 !important;
+}
+
+/* Button styles with glassy effect */
+.btn-primary {
+    background-color: rgba(15, 158, 153, 0.8);
+    background-image: linear-gradient(135deg, rgba(15, 158, 153, 0.8) 0%, rgba(9, 107, 104, 0.7) 100%);
+    border-color: rgba(15, 158, 153, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-secondary {
+    background-color: rgba(110, 191, 188, 0.8);
+    border-color: rgba(110, 191, 188, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: rgba(9, 107, 104, 0.9) !important;
+    background-image: linear-gradient(135deg, rgba(9, 107, 104, 0.9) 0%, rgba(15, 158, 153, 0.8) 100%) !important;
+    border-color: rgba(9, 107, 104, 0.5) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 35px 0 rgba(9, 107, 104, 0.3);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: rgba(91, 175, 172, 0.9) !important;
+    border-color: rgba(91, 175, 172, 0.5) !important;
+    box-shadow: 0 10px 35px 0 rgba(91, 175, 172, 0.3);
+}
+
+.btn-outline-primary {
+    color: #0F9E99;
+    border-color: rgba(15, 158, 153, 0.5);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    background-color: rgba(15, 158, 153, 0.8) !important;
+    background-image: linear-gradient(135deg, rgba(15, 158, 153, 0.8) 0%, rgba(9, 107, 104, 0.7) 100%) !important;
+    border-color: rgba(15, 158, 153, 0.5) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+.btn-outline-light {
+    color: #EFE9E0;
+    border-color: rgba(239, 233, 224, 0.5);
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active {
+    background-color: rgba(239, 233, 224, 0.8) !important;
+    border-color: rgba(239, 233, 224, 0.5) !important;
+    color: #096B68 !important;
+}
+
+/* Navbar with glassy effect */
+.navbar-dark {
+    background-color: rgba(9, 107, 104, 0.8);
+    background-image: linear-gradient(to right, rgba(9, 107, 104, 0.8) 0%, rgba(15, 158, 153, 0.7) 100%);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-top.navbar-dark {
+    background: rgba(239, 233, 224, 0.8) !important;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #EFE9E0 !important;
+    text-shadow: 0 0 10px rgba(239, 233, 224, 0.3);
+}
+
+/* Footer with glassy effect */
+.footer {
+    background-color: rgba(9, 107, 104, 0.9) !important;
+    background-image: linear-gradient(135deg, rgba(9, 107, 104, 0.9) 0%, rgba(7, 74, 72, 0.8) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container-fluid.bg-dark {
+    background-color: rgba(9, 107, 104, 0.9) !important;
+    background-image: linear-gradient(135deg, rgba(9, 107, 104, 0.9) 0%, rgba(7, 74, 72, 0.8) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.container-fluid.text-white[style*="background"] {
+    background: rgba(7, 74, 72, 0.9) !important; /* Darker teal for footer bottom */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Service Icons with glassy effect */
+.service-icon {
+    background-color: rgba(15, 158, 153, 0.8) !important;
+    background-image: linear-gradient(135deg, rgba(15, 158, 153, 0.8) 0%, rgba(9, 107, 104, 0.7) 100%) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+/* Testimonials */
+.testimonial-carousel .owl-dot.active {
+    background-color: #0F9E99 !important;
+    border-color: #0F9E99 !important;
+}
+
+/* Team Members */
+.team-item .text-primary {
+    color: #0F9E99 !important;
+}
+
+.team-social a.btn {
+    background-color: rgba(15, 158, 153, 0.8) !important;
+    background-image: linear-gradient(135deg, rgba(15, 158, 153, 0.8) 0%, rgba(9, 107, 104, 0.7) 100%) !important;
+    border-color: rgba(15, 158, 153, 0.3) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+/* Border colors */
+.border-primary {
+    border-color: rgba(15, 158, 153, 0.8) !important;
+}
+
+.border-bottom-primary {
+    border-bottom-color: rgba(15, 158, 153, 0.8) !important;
+}
+
+/* Form elements */
+.form-control:focus {
+    border-color: #0F9E99;
+    box-shadow: 0 0 0 0.25rem rgba(15, 158, 153, 0.25);
+}
+
+/* Links */
+a {
+    color: #0F9E99;
+}
+
+a:hover {
+    color: #096B68;
+}
+
+/* Additional contrast enhancements */
+.bg-primary, .bg-dark {
+    color: #FFFFFF !important;
+}
+
+.bg-light, .bg-secondary {
+    color: #333333 !important;
+}
+
+/* Enhanced topbar with glassy effect */
+.container-fluid.bg-dark.px-5.d-none.d-lg-block {
+    background-color: rgba(9, 107, 104, 0.9) !important;
+    background-image: linear-gradient(to right, rgba(9, 107, 104, 0.9) 0%, rgba(15, 158, 153, 0.8) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced carousel captions */
+.carousel-caption h1, 
+.carousel-caption h5 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Enhanced section titles */
+.section-title h1,
+.section-title h5 {
+    color: #333333;
+}
+
+.bg-dark .section-title h1,
+.bg-dark .section-title h5,
+.bg-primary .section-title h1,
+.bg-primary .section-title h5 {
+    color: #FFFFFF;
+}
+
+/* Facts section with glassy effect */
+.facts .bg-primary,
+.facts .bg-light {
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+
+.facts .bg-primary:hover,
+.facts .bg-light:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Override specific elements that need adjustments */
+.bg-header {
+    background-color: rgba(15, 158, 153, 0.9) !important;
+    background-image: linear-gradient(135deg, rgba(15, 158, 153, 0.9) 0%, rgba(9, 107, 104, 0.8) 100%) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.carousel-inner .carousel-item::before {
+    background: rgba(9, 107, 104, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+/* Fixing any text on light background */
+.bg-light h1, .bg-light h2, .bg-light h3, .bg-light h4, .bg-light h5, .bg-light h6 {
+    color: #096B68;
+}
+
+/* Service and pricing cards with glassy effect */
+.service-item.bg-light,
+.bg-light.rounded {
+    background-color: rgba(247, 244, 238, 0.7) !important; /* Slightly darker ivory for cards */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(15, 158, 153, 0.1);
+}
+
+/* Apply soft shadows and glassy effect to cards for depth */
+.service-item, .team-item, .blog-item, .bg-white, .bg-light.rounded, .testimonial-item {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: all 0.3s ease;
+}
+
+.service-item:hover, .team-item:hover, .blog-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* Add gradient effects to various elements with glassy effect */
+.btn-square, .btn-sm-square, .btn-lg-square {
+    background-image: linear-gradient(135deg, rgba(15, 158, 153, 0.8) 0%, rgba(9, 107, 104, 0.7) 100%) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-square:hover, .btn-sm-square:hover, .btn-lg-square:hover {
+    background-image: linear-gradient(135deg, rgba(9, 107, 104, 0.9) 0%, rgba(15, 158, 153, 0.8) 100%) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(9, 107, 104, 0.3);
+}
+
+/* Back to top button with glassy effect */
+.back-to-top {
+    background-image: linear-gradient(135deg, rgba(15, 158, 153, 0.8) 0%, rgba(9, 107, 104, 0.7) 100%) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-image: linear-gradient(135deg, rgba(9, 107, 104, 0.9) 0%, rgba(15, 158, 153, 0.8) 100%) !important;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 35px rgba(9, 107, 104, 0.3);
+} 
