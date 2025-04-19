@@ -4,11 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-  <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/dGp-bVuxKn-J-v744tzYnruh0bUdslcQJ43PPQEXxt4vjsHr3NPB_pxECO1mp57dWjY" type="image/x-icon"> 
-
   <link href="/src/styles.css" rel="stylesheet">
-  <title>Saylani</title>
 </head>
 <body>
     <header class="text-gray-600 body-font">
@@ -32,7 +30,8 @@
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">Welcome to the <span class="text-[#8dc63f]">Saylani</span> Welfare
                 Non Governmental Organization in Pakistan
             </h1>
-            <h3 class="sm:text-4xl text-3xl mb-4 text-black items-start">The largest NGO offering free</h3>
+            <h3 class="sm:text-4xl text-3xl mb-4 text-black items-start">The largest NGO offering free  <span id="typed-text"
+              class="text-[#43a724]"></span></h3>
             <p class="mb-8 leading-relaxed">Saylani Welfare is on the ground and already working with local communities to assess how best to support underprivileged families in more than 63 areas of day to day lives.</p>
             <div class="flex justify-center">
               <button class="inline-flex bg-[#8dc63f] border-0 py-2 px-6 hover:bg-[#3B82f6] rounded text-lg">Explore More</button>
@@ -143,7 +142,7 @@
         <div class="h-full bg-cover bg-center bg-no-repeat px-8 py-12 rounded-2xl shadow-md text-center relative" 
              style="background-image: url(./assets/images/ghaza.jpeg); background-size: cover; background-position: center;">
           <div class=" bg-opacity-80 p-6 rounded-lg">
-            <h1 class="title-font pb-10 sm:text-2xl text-xl font-semibold  text-white mb-4 ">Support Gaza’s Families</h1>
+            <h1 class="title-font pb-10 sm:text-2xl text-xl font-semibold  text-white mb-4 ">Support Gaza's Families</h1>
             </div>
             <button class="inline-flex items-center bg-[#3B82F6] text-white px-6 py-2 rounded-lg shadow hover:bg-[#8dc63f] transition">Donate</button>
         </div>
@@ -271,10 +270,10 @@
       <div class="lg:w-1/2 lg:mb-0 mb-6 p-4">
         <div class="h-full text-center">
           <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://saylaniwelfare.com/images/cloudinaryImages/testimonials-image2.webp">
-          <p class="leading-relaxed">Saylani Welfare Trust is a name that needs no introduction today. The journey this team embarked upon was made possible owing to their zeal, enthusiasm & commitment to the society and by the grace of Allah (SWT), it has become a name that we need and not just the one we want. I wish Saylani’s team all the success and blessing that they deserve for future, May God bless Saylani and ensure prosperity and happiness for our people, Ameen!</p>
+          <p class="leading-relaxed">Saylani Welfare Trust is a name that needs no introduction today. The journey this team embarked upon was made possible owing to their zeal, enthusiasm & commitment to the society and by the grace of Allah (SWT), it has become a name that we need and not just the one we want. I wish Saylani's team all the success and blessing that they deserve for future, May God bless Saylani and ensure prosperity and happiness for our people, Ameen!</p>
           <span class="inline-block h-1 w-10 rounded bg-[#8dc63f] mt-6 mb-4"></span>
           <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Arshad Wali Muhammad</h2>
-          <p class="text-gray-500">(Group Director, Gerry’s Group)</p>
+          <p class="text-gray-500">(Group Director, Gerry's Group)</p>
         </div>
       </div>
       <div class="lg:w-1/2 lg:mb-0 p-4">
@@ -321,6 +320,22 @@
     </span>
   </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>      
+<script>
+  var typed = new Typed('#typed-text', {
+    strings: ['daily Meals,', 'Monthly family support,', 'clean water,', 'education,', 'IT and Vocational Training,', 'assistance to disaster affectees,', 'healthcare and many more.'],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;encrypted-tbn0.gstatic.com&#x2F;images?q=tbn:ANd9GcTR5232L4ga1Zr4G1s-aL-tWh5oOiCJSDWVRcbAui6Kic74Ce2XaLSW813YvuNuFtxM8JQ&ampusqp=CAU"
+  intent="WELCOME"
+  chat-title="Saylani-Chatbot"
+  agent-id="3bbbb344-555f-41fc-bf5d-100cd7b34d51"
+  language-code="en"
+></df-messenger>
 </body>
 </html>
